@@ -11,6 +11,18 @@ Summary: Serialization based on ast.literal_eval
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/serpent-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/serpent-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/serpent-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/serpent-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/serpent-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/serpent-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/serpent/badges/version.svg)](https://anaconda.org/conda-forge/serpent)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/serpent/badges/downloads.svg)](https://anaconda.org/conda-forge/serpent)
+
 Installing serpent
 ==================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `serpent` available on your platfo
 ```
 conda search serpent --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/serpent-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/serpent-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/serpent-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/serpent-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/serpent-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/serpent-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/serpent/badges/version.svg)](https://anaconda.org/conda-forge/serpent)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/serpent/badges/downloads.svg)](https://anaconda.org/conda-forge/serpent)
 
 
 Updating serpent-feedstock
