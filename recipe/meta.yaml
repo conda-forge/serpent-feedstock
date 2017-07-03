@@ -1,4 +1,4 @@
-{% set version = "1.19" %}
+{% set version = "1.23" %}
 
 package:
   name: serpent
@@ -7,7 +7,7 @@ package:
 source:
   fn: serpent-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/s/serpent/serpent-{{ version }}.tar.gz
-  sha256: 946b2c837f889971df3575af9dadd8f09bfe48549ebc1b9f6434263b653707ce
+  sha256: 8480ce3d8864b8974d9fe396998c6a7dae96edb68edf905bfd32ea9a11853ba5
 
 build:
   number: 0
