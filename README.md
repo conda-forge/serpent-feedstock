@@ -14,12 +14,15 @@ Summary: Serialization based on ast.literal_eval
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/serpent-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/serpent-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/serpent-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/serpent-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/serpent/badges/version.svg)](https://anaconda.org/conda-forge/serpent)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/serpent/badges/downloads.svg)](https://anaconda.org/conda-forge/serpent)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-serpent-green.svg)](https://anaconda.org/conda-forge/serpent) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/serpent.svg)](https://anaconda.org/conda-forge/serpent) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/serpent.svg)](https://anaconda.org/conda-forge/serpent) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/serpent.svg)](https://anaconda.org/conda-forge/serpent) |
 
 Installing serpent
 ==================
