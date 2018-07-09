@@ -14,9 +14,7 @@ Summary: Serialization based on ast.literal_eval
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/serpent-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/serpent-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/serpent-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/serpent-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/serpent-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/serpent-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/serpent-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/serpent-feedstock)
 
 Current release info
 ====================
