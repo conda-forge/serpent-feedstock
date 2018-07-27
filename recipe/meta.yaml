@@ -1,4 +1,4 @@
-{% set version = "1.25" %}
+{% set version = "1.26" %}
 
 package:
   name: serpent
@@ -7,10 +7,10 @@ package:
 source:
   fn: serpent-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/s/serpent/serpent-{{ version }}.tar.gz
-  sha256: 264a028e059c1b557701ae7c567cdab330dbd228ff924489343efcb39bd828a0
+  sha256: 26116545d6ea12d9ea567e38fa440930f2ae79cd72e4633b8302e93d9d7af887
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: python -m pip install --no-deps --ignore-installed .
 
