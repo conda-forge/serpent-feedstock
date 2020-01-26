@@ -30,6 +30,7 @@ test:
 about:
   home: https://github.com/irmen/Serpent
   license: MIT
+  license_file: LICENSE
   summary: 'Serialization based on ast.literal_eval'
 
 extra:
