@@ -11,17 +11,17 @@ source:
 
 build:
   number: 0
-  noarch: python
+  noarch: python >=3
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   host:
     - pip
-    - python
+    - python >=3
     - setuptools
 
   run:
-    - python
+    - python >=3
 
 test:
   imports:
