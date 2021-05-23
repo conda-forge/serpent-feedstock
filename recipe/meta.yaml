@@ -1,4 +1,4 @@
-{% set version = "1.30.2" %}
+{% set version = "1.40" %}
 
 package:
   name: serpent
@@ -7,11 +7,11 @@ package:
 source:
   fn: serpent-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/s/serpent/serpent-{{ version }}.tar.gz
-  sha256: 72753820246a7d8486e8b385353e3bbf769abfceec2e850fa527a288b084ff7a
+  sha256: 10b34e7f8e3207ee6fb70dcdc9bce473851ee3daf0b47c58aec1b48032ac11ce
 
 build:
   number: 0
-  noarch: python 
+  noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -31,7 +31,7 @@ about:
   home: https://github.com/irmen/Serpent
   license: MIT
   license_file: LICENSE
-  summary: 'Serialization based on ast.literal_eval'
+  summary: Serialization based on ast.literal_eval
 
 extra:
   recipe-maintainers:
