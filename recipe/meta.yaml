@@ -6,24 +6,26 @@ package:
 
 source:
   fn: serpent-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/s/serpent/serpent-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/s/serpent/serpent-{{ version }}.tar.gz
   sha256: 0407035fe3c6644387d48cff1467d5aa9feff814d07372b78677ed0ee3ed7095
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
     - pip
-    - python >=3.5
+    - python {{ python_min }}
     - setuptools
 
   run:
-    - python >=3.5
+    - python >={{ python_min }}
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - serpent
 
