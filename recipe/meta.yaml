@@ -5,30 +5,30 @@ context:
 
 package:
   name: serpent
-  version: ${{ version }}
+  version: {{ version }}
 
 source:
-  fn: serpent-${{ version }}.tar.gz
-  url: https://pypi.org/packages/source/s/serpent/serpent-${{ version }}.tar.gz
+  fn: serpent-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/s/serpent/serpent-{{ version }}.tar.gz
   sha256: 62dc242fd4ea2a50339f4f5aaaf6ecc55605ee74770d7eb2031e760d90a0d114
 
 build:
   number: 0
   noarch: python
-  script: ${{ PYTHON }} -m pip install . --no-deps -vv
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
     - pip
-    - python ${{ python_min }}
+    - python {{ python_min }}
     - setuptools
 
   run:
-    - python >=${{ python_min }}
+    - python >={{ python_min }}
 
 test:
   requires:
-    - python ${{ python_min }}
+    - python {{ python_min }}
   imports:
     - serpent
 
