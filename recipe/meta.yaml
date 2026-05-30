@@ -2,7 +2,7 @@
 
 package:
   name: serpent
-  version: {{ version }}
+  version: "{{ version }}"
 
 source:
   fn: serpent-{{ version }}.tar.gz
